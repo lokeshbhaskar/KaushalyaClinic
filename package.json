@@ -1,5 +1,11 @@
 {
+  "name": "kaushlyaclinic",
+  "version": "1.0.0",
   "devDependencies": {
     "tailwindcss": "^3.4.13"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/style.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
   }
 }
