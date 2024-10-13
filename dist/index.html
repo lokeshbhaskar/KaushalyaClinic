@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaushalya Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-lg">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="flex items-center">
+                <img style="filter: drop-shadow(0px 0px 15px  rgba(0, 0, 0, 0.4));" src="logo.png" alt="Logo"
+                    class="mr-6 w-14 rounded-full">
+                <h1 class="text-2xl font-semibold text-green-500 cursor-pointer">Kaushalya Clinic
+                    <br>
+                    <span class="text-sm font-semibold text-gray-950 space-x-1">Address: Aandar Bazar Siwan,Bihar 91+
+                        7367848333
+                    </span>
+                </h1>
+
+            </div>
+            <nav>
+                <ul class="hidden md:flex  space-x-4 text-lg text-gray-700">
+                    <li><a href="#" class="hover:text-green-500">Home</a></li>
+                    <li><a href="#" class="hover:text-green-500">About Us</a></li>
+                    <li><a href="#" class="hover:text-green-500">Departments</a></li>
+                    <li><a href="#" class="hover:text-green-500">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hidden md:visible space-x-4">
+                <a href="#" class="bg-green-500 text-white px-4 py-2 rounded-lg">Book Appointment</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-100 py-10 px-10">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2">
+                <h5 class="text-3xl hover:text-green-500 font-bold text-gray-700 selection:bg-green-200">Providing
+                    Expert<span id="type-it"></span></h5>
+                <p class="text-gray-600 text-xl mt-4 selection:bg-green-200" id="type-it1"></p>
+                <!-- <div class="flex flex-col md:flex md:flex-row mt-6">
+                    <a href="#" class="bg-green-500 text-white px-4 py-3 rounded-lg mr-4">View Departments</a>
+                    <a href="#" class="bg-gray-700 text-white mt-4 px-6 py-3  rounded-lg">Contact Us</a>
+                </div> -->
+            </div>
+            <div class="w-full ml-0 md:w-1/2 mt-8 md:mt-0">
+                <img src="https://www.sonicseo.com/wp-content/uploads/2020/07/surgeon-768x768.jpg" alt="Doctor Image"
+                    class="rounded-lg shadow-lg h-80 md:h-96 md:ml-20 object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+            <div>
+                <div class="text-5xl text-green-500 px-4"><img
+                        src="https://img.freepik.com/free-photo/hand-with-protective-gloves-holding-blood-samples-covid-test_23-2148958363.jpg?w=900&t=st=1728756306~exp=1728756906~hmac=5d21cbb1547fad242929b3c450a70270c10c84631528ef536448d40ff47daf7f"
+                        alt="" class="rounded-lg shadow-lg  object-cover"></div>
+                <div class="text-2xl mt-2 text-green-500 selection:bg-green-200">Lab Test</div>
+            </div>
+            <div>
+                <div class="px-4">
+                    <img src="https://img.freepik.com/free-photo/handsome-win-gesture-laugh-profession_1368-5843.jpg?w=826&t=st=1728789628~exp=1728790228~hmac=d46814d348c22dd2f978448cf1acc0883c471bb7d7161ba143d17dc5ec2aca15"
+                        alt="" class="rounded-lg shadow-lg  object-cover">
+                </div>
+                <div class="text-2xl text-green-500 selection:bg-green-200">60k+ Successful Stories</div>
+            </div>
+            <div>
+
+                <div class="text-lg text-gray-600 font-bold px-4" id="image">
+                    <img class="rounded-lg shadow-lg  object-cover"
+                        src="https://plus.unsplash.com/premium_photo-1670537439541-d2eb20e1f6ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2xvY2t8ZW58MHx8MHx8fDA%3D"
+                        alt="">
+                    <div class="detail selection:bg-green-200">
+                        <p>Timing</p>
+                        <p>Mon--Sat</p>
+                    </div>
+                </div>
+                <div class="text-2xl mt-2 text-green-500 selection:bg-green-200">
+                    Doctor Clinic Hours
+                </div>
+            </div>
+            <div>
+                <div class="px-4">
+                    <img src="https://img.freepik.com/free-photo/serious-doctor-reading-papers_23-2147896152.jpg?w=740&t=st=1728788879~exp=1728789479~hmac=b969ce8dbebca19a0511fa9574e4de61b7976fdafce34e305e20c1434d40be5b"
+                        alt="" class="rounded-lg shadow-lg  object-cover h-32 w-52">
+                </div>
+                <div class="text-2xl text-green-500 selection:bg-green-200">10+ Years of Experience</div>
+            </div>
+        </div>
+    </section>
+    <!-- get in touch -->
+    <section class="bg-gray-100 py-12">
+        <div class="max-w-2xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Secure Your Appointment Today</h2>
+            <form action="https://formspree.io/f/manyyqob" method="POST" class="space-y-6">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
+                    <input type="text" id="name" name="name" required
+                        class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                </div>
+                <div>
+                    <label for="contact" class="block text-sm font-medium text-gray-700">Your Contact</label>
+                    <input type="tel" id="phone" name="phone" required
+                        class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                    <input type="email" id="email" name="email" required
+                        class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                </div>
+
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" required
+                        class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit"
+                        class="w-full px-6 py-3 bg-indigo-600 text-white text-sm font-medium rounded-md shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-gray-800 text-gray-300 py-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between">
+                <!-- About Section -->
+                <div class="w-full sm:w-1/2 md:w-1/4 mb-6">
+                    <h2 class="text-lg font-bold text-white mb-4">About Us</h2>
+                    <p class="text-sm">
+                        We are committed to providing excellent services to our clients, ensuring satisfaction with
+                        every interaction.
+                    </p>
+                </div>
+
+                <!-- Links Section -->
+                <div class="w-full sm:w-1/2 md:w-1/4 mb-6">
+                    <h2 class="text-lg font-bold text-white mb-4">Quick Links</h2>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Home</a></li>
+                        <li><a href="#" class="hover:text-white">Services</a></li>
+                        <li><a href="#" class="hover:text-white">About</a></li>
+                        <li><a href="#" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info Section -->
+                <div class="w-full sm:w-1/2 md:w-1/4 mb-6">
+                    <h2 class="text-lg font-bold text-white mb-4">Contact Us</h2>
+                    <ul class="space-y-2">
+                        <li>Email: contact@yourwebsite.com</li>
+                        <li>Phone:91+ 7367848333</li>
+                        <li>Address: Aandar Bazar,Siwan, Bihar</li>
+                    </ul>
+                </div>
+
+                <!-- Social Media Section -->
+                <div class="w-full sm:w-1/2 md:w-1/4 mb-6">
+                    <h2 class="text-lg font-bold text-white mb-4">Follow Us</h2>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-white"><svg class="w-6 h-6 fill-current"
+                                xmlns="https://logos-world.net/wp-content/uploads/2020/06/Instagram-Logo.png" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path
+                                    d="M18.75 6.75a2.25 2.25 0 00-2.25-2.25H7.5a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 007.5 19.5h9a2.25 2.25 0 002.25-2.25V6.75z" />
+                            </svg></a>
+                        <a href="#" class="hover:text-white"><svg class="w-6 h-6 fill-current"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path
+                                    d="M16.71 2.25a3.41 3.41 0 013.41 3.41v12.68a3.41 3.41 0 01-3.41 3.41H7.29a3.41 3.41 0 01-3.41-3.41V5.66A3.41 3.41 0 017.29 2.25h9.42z" />
+                            </svg></a>
+                        <a href="#" class="hover:text-white"><svg class="w-6 h-6 fill-current"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path d="M17.25 9.75a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0z" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center pt-8 border-t border-gray-700">
+                <p class="text-sm">&copy; 2024 Your Website. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+</body>
+
+</html>
